@@ -18,7 +18,7 @@ action = 0;
 while (action < 1 || action > 4) {
     action = customConsole("Выберите одно из действий, где 1 - Сложение, 2 - Вычитание, 3 - Умножение, 4 - Деление")
 };
-
+//New changes
 
 a = customConsole ("Введите число a");
 b = customConsole ("Введите число b");
