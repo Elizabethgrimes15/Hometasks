@@ -1,0 +1,23 @@
+{
+  "name": "education_session",
+  "version": "1.0.0",
+  "description": "Homework",
+  "scripts": {
+    "install": "sudo npm install --save",
+    "build": "tsc test.ts",
+    "test": "node./test.js"
+  },
+  "author": "Elizaveta Fedotova",
+  "license": "ISC",
+  "dependencies": {
+    "global": "^4.4.0",
+    "prompt": "^1.1.0",
+    "prompt-sync": "^4.2.0",
+    "save": "^2.4.0",
+    "sync": "^0.2.5",
+    "typings": "^2.1.1"
+  },
+  "devDependencies": {
+    "@types/node": "^14.14.32"
+  }
+}
